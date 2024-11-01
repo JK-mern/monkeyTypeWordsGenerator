@@ -1,0 +1,14 @@
+{
+  "name": "monkeytypewordsgenerator",
+  "version": "1.0.0",
+  "description": "A word generator similar to monkeytype",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jayakrishnan S",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
