@@ -35,6 +35,26 @@ return text.join(" ");
 }
 
 
+export function textWithCapitalLetters ()
+{
+  const allWords = [
+    ...words.nouns,
+    ...words.verbs,
+    ...words.capital
+  ]
+
+
+let text = [];
+for (let i = 0; i < 100; i++) {
+    const randomWord = allWords[Math.floor(Math.random() * allWords.length)];
+    text.push(randomWord);
+}
+return text.join(" ");
+
+}
+
+
+console.log(textWithCapitalLetters())
 
 
 
